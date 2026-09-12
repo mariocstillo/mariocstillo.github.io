@@ -228,6 +228,14 @@ addTestimonial('JL', 'ZULHAM ABIDIN', 'Anggota Komunitas Fotografi',
     );
 
 
+addPhoto(
+      "tessssssssssssss",
+      "upload/melody.jfif",
+      "Contoh hasil photography session Mario",
+      "Contoh hasil pemotretan untuk kebutuhan portrait, event, dan branding.",
+    );
+
+
     
 
 
