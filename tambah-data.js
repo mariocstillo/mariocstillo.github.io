@@ -235,6 +235,13 @@ addPhoto(
       "Contoh hasil pemotretan untuk kebutuhan portrait, event, dan branding.",
     );
 
+addPhoto(
+      "kamera tesss",
+      "upload/kamera.jfif",
+      "Contoh hasil photography session Mario",
+      "Contoh hasil pemotretan untuk kebutuhan portrait, event, dan branding.",
+    );
+
 
     
 
