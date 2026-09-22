@@ -142,17 +142,11 @@ addTestimonial('JL', 'ZULHAM ABIDIN', 'Anggota Komunitas Fotografi',
 
     addVideo(
       videoEditingData,
-      "TES1",
-      "https://youtu.be/mfipVL1n2HQ?si=Y3_6_hUrQTueJDvC",
-      "AASDASD.",
+      "Profil S2 KPI UIN Alauddin Makassar",
+      "https://youtu.be/GTCqeAZhLdU?si=wf3OK1quHORgM52A",
+      "Program Magister Komunikasi dan Penyiaran Islam UIN Alauddin Makassar. Program ini dirancang untuk mencetak lulusan yang kritis, komunikatif, dan berintegritas dalam membangun peradaban Islam melalui media dan komunikasi. Saksikan profil lengkapnya di video ini!.",
     );
 
-    addVideo(
-      videoEditingData,
-      "TES2",
-      "https://youtu.be/_D4aRNrmbug?si=9R3i3oj7n3BfIbMi",
-      "DASDAD.",
-    );
 
 
 // TAMBAH DATA DI ATAS SINI - VIDEO EDITING
