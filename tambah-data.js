@@ -73,16 +73,11 @@ function addPhoto(title, source, alt, description = '') {
 
 /* A. GAMBAR CAROUSEL BEHIND THE LENS DI HALAMAN UTAMA*/
 
-addBehindLensImage('upload/jumbotron2.jpg', 'Pengalaman proyek visual Mario');
-addBehindLensImage('upload/jumbotron2.jpg', 'Dokumentasi proyek fotografi Mario');
-addBehindLensImage('upload/jumbotron2.jpg', 'Karya visual Mario');
-addBehindLensImage("upload/contoh-data-wisuda3.jfif", "Karya visual Mario");
+addBehindLensImage('upload/masasih.jpg', 'Pengalaman proyek visual Mario');
+addBehindLensImage('upload/iyakah.jpg', 'Dokumentasi proyek fotografi Mario');
+
 
 // TAMBAH DATA DI ATAS SINI - BEHIND THE LENS
-
-
-
-
 
 
 
@@ -121,9 +116,8 @@ addTestimonial('JL', 'ZULHAM ABIDIN', 'Anggota Komunitas Fotografi',
 
     addCreativeImage('upload/jumbotron3.jpg', 'Dokumentasi proyek videografi Mario');
 
-    addCreativeImage('upload/contoh-data-wisuda1.jfif', 'Dokumentasi proyek videografi Mario');
+    addCreativeImage('upload/jumbotron2.jpg', 'Dokumentasi proyek videografi Mario');
 
-    addCreativeImage('upload/contoh-data-wisuda2.jfif', 'Dokumentasi proyek videografi Mario');
 
 // TAMBAH DATA DI ATAS SINI - CREATIVE STORIES
 
@@ -141,21 +135,42 @@ addTestimonial('JL', 'ZULHAM ABIDIN', 'Anggota Komunitas Fotografi',
 /* D. VIDEO PADA HALAMAN VIDEO EDITING*/
 
     addVideo(
+      // keterangan nya tidak perlu diubah
       videoEditingData,
       "Profil S2 KPI UIN Alauddin Makassar",
       "https://youtu.be/GTCqeAZhLdU?si=wf3OK1quHORgM52A",
       "Program Magister Komunikasi dan Penyiaran Islam UIN Alauddin Makassar. Program ini dirancang untuk mencetak lulusan yang kritis, komunikatif, dan berintegritas dalam membangun peradaban Islam melalui media dan komunikasi. Saksikan profil lengkapnya di video ini!.",
     );
 
+    addVideo(
+      videoEditingData,
+      "SPEEDRAMP",
+      "https://youtube.com/shorts/BrOmyGBo4ug?si=xSuusLeKua6MMeoq",
+      "Video pendek speed ramp yang menampilkan Porsche putih, dengan perubahan tempo untuk menonjolkan detail bodi dan velgnya.",
+    );
 
+    addVideo(
+      videoEditingData,
+      "SPEEDRAMP",
+      "https://youtube.com/shorts/dZPZ1QJy93A?si=BRDDZQ4M4UbTszQ-",
+      "Truk tambang berukuran besar menjadi fokus video speed ramp ini, dengan aksen efek visual pada bagian roda.",
+    );
+
+    addVideo(
+      videoEditingData,
+      "RING PORTAL",
+      "https://youtu.be/q0vUPK2toT0?si=ML-pYhovb0pEDFr5",
+      "Eksperimen efek visual ring portal bercahaya merah yang menjadi pusat perhatian dalam adegan.",
+    );
+
+    addVideo(
+      videoEditingData,
+      "Teleport VFX",
+      "https://youtu.be/xCAEMtsF5LQ?si=iAgqGBmK1Eh-he-6",
+      "Efek teleport diterapkan pada adegan di lingkungan sekolah untuk memberi kesan perpindahan secara instan.",
+    );
 
 // TAMBAH DATA DI ATAS SINI - VIDEO EDITING
-
-
-
-
-
-
 
 
 
@@ -164,80 +179,78 @@ addTestimonial('JL', 'ZULHAM ABIDIN', 'Anggota Komunitas Fotografi',
 
 /* E. VIDEO PADA HALAMAN VIDEOGRAPHY PROJECTS*/
 
-    addVideo(videographyData, 'Dokumentasi Proyek Videografi', 'https://youtu.be/Zwv0TZwuv4I?si=kxeXGlYRw73bvOCM',
-    'Contoh video dokumentasi untuk menampilkan alur cerita dan hasil visual proyek videografi.');
-    addVideo(videographyData, 'Dokumentasi Proyek Videografi', 'https://youtu.be/Zwv0TZwuv4I?si=kxeXGlYRw73bvOCM',
-    'Contoh video dokumentasi untuk menampilkan alur cerita dan hasil visual proyek videografi.');
+    addVideo(
+      videographyData,
+      "Pesanteren Darul Aman Gombara",
+      "https://youtu.be/cM0ueRelGx0?si=XrpwuYeXV6AGdFJq",
+      "Suasana kegiatan para santri Darul Aman Gombara dipadukan dengan efek crowd glitch sebagai aksen visual.",
+    );
+    
 
     addVideo(
       videographyData,
-      "cONTOOH3",
-      "https://youtu.be/F2i9xDEx13M?si=MCJatRvL3T6nCyRF",
-      "ASDASDAS.",
+      "OPENING VISUAL",
+      "https://youtu.be/3QjieHpYMsQ?si=qrna19s8nhCCfhsy",
+      "Opening visual sekolah dengan tampilan udara area sekolah, identitas generasi, dan montase berbagai kegiatan.",
     );
 
+    addVideo(
+      videographyData,
+      "CLEAN WALK EFFECT",
+      "https://youtu.be/3QjieHpYMsQ?si=qrna19s8nhCCfhsy",
+      "Tautan ini saat ini mengarah ke video OPENING VISUAL yang sama: montase udara sekolah dan kegiatan siswa.",
+    );
+  
 
 
 // TAMBAH DATA DI ATAS SINI - VIDEOGRAPHY PROJECTS
 
-
-
-
-
-
-
-
-
-
 // ===============================================DIBAWAH INI ADALAH HALAMAN PHOTOGRAPHY SESSIONS========================================================================
 
-    /* F. FOTO PADA HALAMAN PHOTOGRAPHY SESSIONS*/
+/* F. FOTO PADA HALAMAN PHOTOGRAPHY SESSIONS*/
+addPhoto(
+  "Photography Session Showcase",
+  "upload/iyakah.jpg",
+  "Contoh hasil photography session Mario",
+  "Dokumentasi suasana acara outdoor dengan pengunjung dan fotografer di area kegiatan.",
+);
+    
+    
     addPhoto(
     'Photography Session Showcase',
     'upload/fotography.jpg',
     'Contoh hasil photography session Mario',
-    'Contoh hasil pemotretan untuk kebutuhan portrait, event, dan branding.'
+    'Momen candid di tepi pantai, menangkap gerak dan suasana liburan yang santai.'
+    );
+
+    addPhoto(
+      "Photography Session Showcase",
+      "upload/asik.png",
+      "Contoh hasil photography session Mario",
+      "Portrait close-up dengan pencahayaan dramatis untuk menonjolkan ekspresi dan karakter.",
+    );
+
+    addPhoto(
+      "Photography Session Showcase",
+      "upload/jackie.jpg",
+      "Contoh hasil photography session Mario",
+      "Portrait full-body di tepi pantai dengan cahaya alami dan latar laut terbuka.",
     );
 
 
     addPhoto(
       "Photography Session Showcase",
-      "upload/contoh-data-wisuda1.jfif",
+      "upload/ramenih.jpg",
       "Contoh hasil photography session Mario",
-      "Contoh hasil pemotretan untuk kebutuhan portrait, event, dan branding.",
+      "Foto bersama selepas acara dengan pencahayaan panggung yang meriah.",
     );
 
     addPhoto(
       "Photography Session Showcase",
-      "upload/contoh-data-wisuda2.jfif",
+      "upload/yayaya.jpg",
       "Contoh hasil photography session Mario",
-      "Contoh hasil pemotretan untuk kebutuhan portrait, event, dan branding.",
+      "Potret dua orang di area perkotaan pada malam hari dengan suasana cahaya kota.",
     );
-
-    addPhoto(
-      "Photography Session Showcase",
-      "upload/contoh-data-wisuda3.jfif",
-      "Contoh hasil photography session Mario",
-      "Contoh hasil pemotretan untuk kebutuhan portrait, event, dan branding.",
-    );
-
-
-addPhoto(
-      "tessssssssssssss",
-      "upload/melody.jfif",
-      "Contoh hasil photography session Mario",
-      "Contoh hasil pemotretan untuk kebutuhan portrait, event, dan branding.",
-    );
-
-addPhoto(
-      "kamera tesss",
-      "upload/kamera.jfif",
-      "Contoh hasil photography session Mario",
-      "Contoh hasil pemotretan untuk kebutuhan portrait, event, dan branding.",
-    );
-
-
-    
 
 
 // TAMBAH DATA DI ATAS SINI - PHOTOGRAPHY SESSIONS
