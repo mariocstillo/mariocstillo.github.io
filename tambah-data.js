@@ -170,6 +170,14 @@ addTestimonial('JL', 'ZULHAM ABIDIN', 'Anggota Komunitas Fotografi',
       "Efek teleport diterapkan pada adegan di lingkungan sekolah untuk memberi kesan perpindahan secara instan.",
     );
 
+
+addVideo(
+      videoEditingData,
+      "Beyond 9 to 5",
+      "https://youtu.be/xCAEMtsF5LQ?si=iAgqGBmK1Eh-he-6",
+      "Competition Editing Stock Bank Season 5",
+    );
+
 // TAMBAH DATA DI ATAS SINI - VIDEO EDITING
 
 
