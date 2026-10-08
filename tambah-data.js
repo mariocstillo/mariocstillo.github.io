@@ -142,6 +142,13 @@ addTestimonial('JL', 'ZULHAM ABIDIN', 'Anggota Komunitas Fotografi',
       "Program Magister Komunikasi dan Penyiaran Islam UIN Alauddin Makassar. Program ini dirancang untuk mencetak lulusan yang kritis, komunikatif, dan berintegritas dalam membangun peradaban Islam melalui media dan komunikasi. Saksikan profil lengkapnya di video ini!.",
     );
 
+addVideo(
+      videoEditingData,
+      "Beyond 9 to 5",
+      "https://youtu.be/xCAEMtsF5LQ?si=iAgqGBmK1Eh-he-6",
+      "Competition Editing Stock Bank Season 5",
+    );
+
     addVideo(
       videoEditingData,
       "SPEEDRAMP",
@@ -168,14 +175,6 @@ addTestimonial('JL', 'ZULHAM ABIDIN', 'Anggota Komunitas Fotografi',
       "Teleport VFX",
       "https://youtu.be/xCAEMtsF5LQ?si=iAgqGBmK1Eh-he-6",
       "Efek teleport diterapkan pada adegan di lingkungan sekolah untuk memberi kesan perpindahan secara instan.",
-    );
-
-
-addVideo(
-      videoEditingData,
-      "Beyond 9 to 5",
-      "https://youtu.be/xCAEMtsF5LQ?si=iAgqGBmK1Eh-he-6",
-      "Competition Editing Stock Bank Season 5",
     );
 
 // TAMBAH DATA DI ATAS SINI - VIDEO EDITING
